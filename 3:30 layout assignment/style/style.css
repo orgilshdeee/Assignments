@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.image1 {
+  width: 250px;
+  height: 180px;
+  background: aqua;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
