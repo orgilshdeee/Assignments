@@ -1,12 +1,47 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 40px;
+}
 .image1 {
-  width: 250px;
-  height: 180px;
-  background: aqua;
   border-radius: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.scndbg {
+  background: aquamarine;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.bg-white-border {
+  border-radius: 10px;
+}
+.botbuttons {
+  border: none;
+  margin-right: 1%;
+}
+.bluebutton {
+  border: none;
+  background: rgb(0, 157, 255);
+  border-radius: 10px;
+  margin-left: 1%;
+}
+.rightImg {
+  border-radius: 45px;
+  padding: 0;
+  margin: 0 2% 2% 0;
+}
+.bg-danger {
+  border-radius: 10px;
+}
+.par0 {
+  border-radius: 10px 10px 0px 0px;
+}
+.par1 {
+  border-radius: 10px 0px 10px 10px;
+}
+
+.par2 {
+  border-radius: 10px;
 }
