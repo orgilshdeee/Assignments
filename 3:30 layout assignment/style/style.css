@@ -4,6 +4,9 @@
 body {
   margin: 40px;
 }
+.leftside-image {
+  margin: auto;
+}
 .image1 {
   border-radius: 45px;
 }
@@ -44,4 +47,53 @@ body {
 
 .par2 {
   border-radius: 10px;
+}
+.menuOutside {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .middle-left {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image-next {
+    display: none;
+  }
+  .par1 {
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menuInside {
+    display: none;
+  }
+  .menuOutside {
+    display: block;
+    background: plum;
+    margin: 1%;
+  }
+  .menuOutside ul {
+    margin: auto;
+  }
+  .middle-left {
+    display: block;
+  }
+  .middle-left p {
+    display: flex;
+    justify-content: center;
+  }
+  .middleRight-images {
+    margin: auto;
+  }
+  .footerLeft {
+    display: block !important;
+    margin: auto;
+  }
+  .footerRight {
+    margin-top: 5%;
+  }
+  .footerRight p {
+    justify-content: center !important;
+  }
 }
